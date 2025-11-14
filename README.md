@@ -195,16 +195,17 @@ curl -X POST http://localhost:8080/api/students \
     "age": 20
   }'
 ```
-
+![alt text](image-1.png)
 **Get all students:**
 ```bash
 curl http://localhost:8080/api/students
 ```
-
+![alt text](image.png)
 **Get student by ID:**
 ```bash
 curl http://localhost:8080/api/students/1
 ```
+![alt text](image-2.png)
 
 **Update student:**
 ```bash
@@ -217,11 +218,13 @@ curl -X PUT http://localhost:8080/api/students/1 \
     "age": 21
   }'
 ```
+![alt text](image-3.png)
 
 **Delete student:**
 ```bash
 curl -X DELETE http://localhost:8080/api/students/1
 ```
+![alt text](<Postman Test Screenshots/DELETE.png>)
 
 **Search students:**
 ```bash
